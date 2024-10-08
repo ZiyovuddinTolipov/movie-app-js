@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --bg-100:#222933;
+    --bg-200:#161D25;
+    --bg-300:#131A20;
+    --text-100:#A5BBDC;
+}
+body {
+    background: var(--bg-200);
+}
+header {
+width: 100%;
+background: var(--bg-100);
+}
+header>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav>ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color:var(--text-100);
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.primyera {
+    height: 80svh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.primyera .carousel-inner img {
+}
